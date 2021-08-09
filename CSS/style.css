@@ -1,0 +1,40 @@
+ .row-header {
+    margin: 0px auto; 
+    padding: 0px auto;
+ }
+ 
+ .row-content
+ {
+   margin:0px auto;
+   padding:30px 0px 30px 0px ; 
+   min-width: 400px; 
+   border-bottom: 1px ridge;
+}
+
+.footer{
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    background-color:plum ;
+}
+
+.jumbotron  {
+    margin: 0px auto;
+    padding: 70px 30px 70px 30px ;
+    background-color: rebeccapurple;
+    color: floralwhite;
+}
+
+.address{
+    margin: 0px;
+    color: #0f0f0f;
+    font-size: 80%;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark{
+    background-color: #512da8;
+}
