@@ -1,0 +1,33 @@
+$lt-gray: #ddd;
+$background-dark: #512Da8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+
+//height variables
+
+$carousel-item-height: 300px;
+
+//Scss mixins
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+.modal-header{
+    background-color: $background-dark;
+
+}
+
+h4{
+    color: floralwhite;
+}
+
+.modal-body{
+    background-color: $background-pale;
+}
+
+
+.close{
+    color: floralwhite;
+}
