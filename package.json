@@ -11,8 +11,9 @@
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "clean": "rimraf dist",
-    "imagemin": "imagemin img/* dist/img ",
-    " build " : " npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+    "imagemin": "imagemin img/* dist/img",
+    "usemin": "usemin contactus.html -d dist --html -o dist/contactus.html && usemin aboutus.html --d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist/index.html",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "author": "",
   "license": "ISC",
@@ -24,11 +25,11 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.6.0",
     "bootstrap-social": "^5.1.1",
     "cssmin": "^0.4.3",
     "htmlmin": "0.0.7",
-    "jquery": "^3.3.1",
+    "jquery": "^3.6.0",
     "popper.js": "^1.12.9",
     "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.6.0"
