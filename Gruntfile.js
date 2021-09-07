@@ -82,7 +82,7 @@ module.exports = function (grunt) {
         useminPrepare : {  //usemin prepare the files & configure the ConCache CSS min & Uglify & file ref plugins,they can work correctly
             foo: {
                 dest: 'dist',
-                src: ['contactus.html','aboutus.html','index.html'] //all 3files need to process
+                src: ['index.html'] //all 3files need to process
             },
             options: {    //next part of Usemin specify the options
                 flow: {
